@@ -1,0 +1,28 @@
+.banner {
+    height: 300px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+}
+
+.location {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}

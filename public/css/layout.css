@@ -1,0 +1,68 @@
+/* Pengaturan desktop tetap sama */
+.navbar-nav .nav-link {
+    margin-right: 30px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-nav {
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgb(198, 198, 198);
+    height: 60px;
+}
+
+/* Brand tetap di kanan pada desktop */
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: auto;
+    }
+}
+
+/* Responsiveness for Mobile */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        align-items: start;
+        background-color: #f8f9fa;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    /* Navbar brand tetap di kiri pada mobile */
+    .navbar-brand {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    /* Navbar-toggler tetap di kanan */
+    .navbar-toggler {
+        margin-left: auto;
+    }
+}
