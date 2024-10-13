@@ -33,42 +33,42 @@
         <h4 class="fw-bold">Fasilitas Kost</h4>
         <div class="row mt-3">
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Ukuran Kamar" class="me-2">
+                <img src="{{ URL::asset('/icons/bed.png') }}" alt="Ukuran Kamar" class="facility-icon me-2">
                 Uk kamar 3,5 X 4
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Kamar Mandi Dalam" class="me-2">
+                <img src="{{ URL::asset('/icons/bathtub.png') }}" alt="Kamar Mandi Dalam" class="facility-icon me-2">
                 Kamar mandi dalam
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Lemari" class="me-2">
+                <img src="{{ URL::asset('/icons/wardrobe.png') }}" alt="Lemari" class="facility-icon me-2">
                 Lemari
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Tv 32" class="me-2">
+                <img src="{{ URL::asset('/icons/smart-tv.png') }}" alt="Tv 32" class="facility-icon me-2">
                 Tv 32"
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="WiFi" class="me-2">
+                <img src="{{ URL::asset('/icons/wifi.png') }}" alt="WiFi" class="facility-icon me-2">
                 Wifi
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Meja Belajar" class="me-2">
+                <img src="{{ URL::asset('/icons/desk.png') }}" alt="Meja Belajar" class="facility-icon me-2">
                 Meja Belajar
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="AC" class="me-2">
+                <img src="{{ URL::asset('/icons/ac.png') }}" alt="AC" class="facility-icon me-2">
                 AC
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Bed" class="me-2">
+                <img src="{{ URL::asset('/icons/bed.png') }}" alt="Bed" class="facility-icon me-2">
                 Bed
             </div>
             <div class="col-6 col-md-4 mb-4">
-                <img src="https://via.placeholder.com/40" alt="Kaca Rias" class="me-2">
+                <img src="{{ URL::asset('/icons/dressing-table.png') }}" alt="Kaca Rias" class="facility-icon me-2">
                 Kaca Rias
             </div>
         </div>
     </div>
-
+    <link rel="stylesheet" href="{{ asset('css/facility.css') }}">
 @endsection

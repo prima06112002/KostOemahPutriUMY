@@ -1,0 +1,6 @@
+/* Mengatur ukuran gambar icon fasilitas agar selalu 40x40 px */
+.facility-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* Pastikan gambar tetap proporsional dalam kotak */
+}

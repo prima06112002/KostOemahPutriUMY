@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <!-- Brand tetap di sebelah kanan untuk desktop -->
             <a class="navbar-brand ms-lg-auto" href="#">Kost Oemah Putri UMY</a>
-            
+
             <!-- Hamburger tetap di sebelah kanan untuk mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

@@ -35,19 +35,19 @@
             <div class="col-md-9">
                 <div class="d-flex flex-wrap mb-4">
                     <div class="p-2">
-                        <img src="https://via.placeholder.com/40" alt="Penjaga Kost 24 Jam" class="me-2">
+                        <img src="{{ URL::asset('/icons/policeman.png') }}" alt="Penjaga Kost 24 Jam" class="facility-icon me-2">
                         Penjaga Kost 24 Jam
                     </div>
                     <div class="p-2">
-                        <img src="https://via.placeholder.com/40" alt="Dapur Umum" class="me-2">
+                        <img src="{{ URL::asset('/icons/kitchen-table.png') }}" alt="Dapur Umum" class="facility-icon me-2">
                         Dapur Umum/Kantin Dalam
                     </div>
                     <div class="p-2">
-                        <img src="https://via.placeholder.com/40" alt="Parkir" class="me-2">
+                        <img src="{{ URL::asset('/icons/bicycle.png') }}" alt="Parkir" class="facility-icon me-2">
                         Parkir
                     </div>
                     <div class="p-2">
-                        <img src="https://via.placeholder.com/40" alt="CCTV 24 Jam" class="me-2">
+                        <img src="{{ URL::asset('/icons/security-camera.png') }}" alt="CCTV 24 Jam" class="facility-icon me-2">
                         CCTV 24 Jam
                     </div>
                 </div>
@@ -95,5 +95,5 @@
             </div>
         </div>
     </div>
-
+    <link rel="stylesheet" href="{{ asset('css/price.css') }}">
 @endsection
