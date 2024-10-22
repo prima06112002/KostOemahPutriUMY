@@ -17,25 +17,25 @@
                 <div class="d-flex align-items-center mb-2">
                     <div class="fw-bold me-3">4</div>
                     <div class="progress flex-grow-1" style="height: 10px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 1%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-2">
                     <div class="fw-bold me-3">3</div>
                     <div class="progress flex-grow-1" style="height: 10px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 1%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-2">
                     <div class="fw-bold me-3">2</div>
                     <div class="progress flex-grow-1" style="height: 10px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 1%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-2">
                     <div class="fw-bold me-3">1</div>
                     <div class="progress flex-grow-1" style="height: 10px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 1%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
@@ -119,5 +119,11 @@
             </div>
         </div>
     </div>
+    <div class="container title_holder">
+			
+        <h1 class="text-uppercase">Google Reviews</h1><p><em>The following is a preview of your SociableKIT Google Reviews widget.</em></p>
+    </div>
+    <div class='sk-ww-google-reviews' data-embed-id='25476295'></div>
+    <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 
 @endsection

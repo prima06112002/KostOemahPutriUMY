@@ -1,52 +1,96 @@
-/* Pengaturan desktop tetap sama */
-.navbar-nav .nav-link {
-    margin-right: 30px;
+.navbar {
+    background-color: #75625b; /* Warna beige/cream yang lembut untuk kesan hangat */
+    height: 80px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sedikit bayangan */
+    font-family: 'Poppins', sans-serif; /* Menggunakan Google Font */
+    
 }
 
-.navbar {
-    height: 80px;
+/* Navbar Brand */
+.navbar-brand {
+    color: #d4af37 !important; /* Warna emas lembut untuk brand */
+    font-size: 1.5rem; /* Sedikit lebih besar */
+    font-weight: 700; /* Lebih tebal */
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #8d6e63 !important; /* Warna yang lebih gelap saat di-hover */
 }
 
 .navbar-nav {
     align-items: center;
-    margin-left: 20px;
-    background-color: rgb(198, 198, 198);
+    background: linear-gradient(135deg, #8d6e63, #f5e6ca); /* Gradasi coklat gelap ke beige untuk kontras */
+    margin-left: -200px;
     height: 60px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Menambahkan sedikit bayangan */
+    border-radius: 20px; /* Membuat sudut navbar sedikit melengkung */
+    gap: 20px;
+}
+
+/* Pengaturan desktop tetap sama */
+.navbar-nav .nav-link {
+    align-items: center;
+    height: 100%;
+    color: #ffffff; /* Teks putih untuk kontras dengan dark brown */
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-weight: 500; /* Sedikit tebal */
+    font-size: 1.1rem; /* Sedikit lebih besar */
+    border-radius: 5px; /* Melengkungkan sedikit setiap link */
+}
+
+/* Warna untuk item yang aktif */
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    font-weight: 700;
+    border-radius: 5px; /* Tambahkan sedikit lengkungan */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4af37; /* Warna emas lembut saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat hover */
+}
+
+/* Menambahkan garis bawah saat hover */
+.navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Garis bawah muncul saat hover */
 }
 
 /* Brand tetap di kanan pada desktop */
 @media (min-width: 992px) {
     .navbar-brand {
-        margin-left: auto;
+        transform: translateX(1270px);
     }
 }
 
 /* Responsiveness for Mobile */
 @media (max-width: 991.98px) {
     .navbar-nav {
-        align-items: start;
-        background-color: #f8f9fa;
+        background-color: #8d6e63; /* Warna dark brown di mobile */
         height: auto;
         width: 100%;
-        margin-left: 0;
-    }
-    
-    .navbar-toggler {
-        border: none;
-    }
-
-    .navbar-collapse {
-        background-color: #f8f9fa;
-        padding: 0;
-    }
-
-    .navbar-nav .nav-item {
-        text-align: left;
-        margin-bottom: 10px;
+        margin-left: 0px;
+        text-align: center;
+        gap: 20px;
     }
 
     .navbar-nav .nav-link {
         width: 100%;
+        color: #ffffff;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #d4af37;
     }
 
     .navbar {
@@ -63,5 +107,15 @@
     /* Navbar-toggler tetap di kanan */
     .navbar-toggler {
         margin-left: auto;
+        border: none;
+    }
+
+    .navbar-collapse {
+        padding: 4px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
